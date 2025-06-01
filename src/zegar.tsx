@@ -14,8 +14,8 @@ function Zegar() {
     const formattedTime = time.toLocaleTimeString();
 
     return (
-        <div style={{ fontSize: '2rem', fontFamily: 'monospace' }}>
-            🕒 {formattedTime}
+        <div id={"zegar"} style={{ fontSize: '2rem', fontFamily: 'monospace' }}>
+             {formattedTime}
         </div>
     );
 }
